@@ -34,7 +34,7 @@ Pasos para docentes y alumnos: [docs/taller/github-classroom-y-template.md](docs
 
 Completar con el enlace real al **GitHub Project**:
 
-**Tablero:** @KROMA-networking's TABLA VIRTUAL DIVAS
+**Tablero:** [@KROMA-networking's TABLA VIRTUAL DIVAS](https://github.com/orgs/UCSE-Programacion-2/projects/7)
 
 ## Integrantes (obligatorio: 3 por equipo)
 
