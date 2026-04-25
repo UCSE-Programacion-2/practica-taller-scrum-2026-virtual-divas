@@ -34,13 +34,13 @@ Pasos para docentes y alumnos: [docs/taller/github-classroom-y-template.md](docs
 
 Completar con el enlace real al **GitHub Project**:
 
-**Tablero:** [Agregar URL del GitHub Project aquí]
+**Tablero:** @KROMA-networking's TABLA VIRTUAL DIVAS
 
 ## Integrantes (obligatorio: 3 por equipo)
 
-- **Apellido, Nombre** — [GitHub](https://github.com/)
-- **Apellido, Nombre** — [GitHub](https://github.com/)
-- **Apellido, Nombre** — [GitHub](https://github.com/)
+- **Sanchez, Sergio** — [GitHub](https://github.com/KROMA-networking)
+- **Mendoza, J.Francisco** — [GitHub](https://github.com/playerov)
+- **Sajama, Maximiliano** — [GitHub](https://github.com/matiasajama)
 
 ## Reglas de contribución (alineadas al integrador)
 
