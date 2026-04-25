@@ -41,6 +41,8 @@ Completar con el enlace real al **GitHub Project**:
 - **Sanchez, Sergio** — [GitHub](https://github.com/KROMA-networking)
 - **Mendoza, J.Francisco** — [GitHub](https://github.com/playerov)
 - **Sajama, Maximiliano** — [GitHub](https://github.com/matiasajama)
+- **Heredia, Facundo** — [GitHub](https://github.com/FacuHere)
+ 
 
 ## Reglas de contribución (alineadas al integrador)
 
