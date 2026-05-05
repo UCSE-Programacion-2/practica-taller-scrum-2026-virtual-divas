@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestión de Roles - Rent&Go</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+        /* NAVBAR */
+        .navbar {
+            background-color: #ffffff;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 16px 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-logo {
+            font-size: 22px;
+            font-weight: 700;
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .navbar-logo span {
+            color: #1e293b;
+        }
+
+        .navbar-links {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .navbar-links a {
+            font-size: 14px;
+            color: #64748b;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* CONTENIDO */
+        .page-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 24px;
+        }
+
+        .page-header {
+            margin-bottom: 32px;
+        }
+
+        .page-header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 6px;
+        }
+
+        .page-header p {
+            font-size: 15px;
+            color: #64748b;
+        }
+
+        /* TABLA */
+        .tabla-card {
+            background-color: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead tr {
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        thead th {
+            padding: 14px 24px;
+            text-align: left;
+            font-size: 12px;
+            font-weight: 700;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        tbody tr:last-child {
+            border-bottom: none;
+        }
+
+        tbody td {
+            padding: 16px 24px;
+            font-size: 14px;
+            color: #1e293b;
+        }
+
+        /* SELECT DE ROL */
+        .role-select {
+            width: 100%;
+            padding: 10px 14px;
+            font-size: 14px;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        /* BOTON GUARDAR */
+        .btn-guardar {
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn-guardar:hover {
+            background-color: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Rent<span>&Go</span></a>
+        <div class="navbar-links">
+            <a href="#">Vehículos</a>
+            <a href="#">Cerrar sesión</a>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <div class="page-container">
+
+        <div class="page-header">
+            <h1>Gestión de usuarios</h1>
+            <p>Administrar roles y permisos de usuarios</p>
+        </div>
+
+        <div class="tabla-card">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Rol</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>juan@email.com</td>
+                        <td>
+                            <select class="role-select">
+                                <option value="cliente" selected>Cliente</option>
+                                <option value="empleado">Empleado</option>
+                                <option value="administrador">Administrador</option>
+                            </select>
+                        </td>
+                        <td>
+                            <button class="btn-guardar">Guardar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>María Gómez</td>
+                        <td>maria@email.com</td>
+                        <td>
+                            <select class="role-select">
+                                <option value="cliente">Cliente</option>
+                                <option value="empleado" selected>Empleado</option>
+                                <option value="administrador">Administrador</option>
+                            </select>
+                        </td>
+                        <td>
+                            <button class="btn-guardar">Guardar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Carlos López</td>
+                        <td>carlos@email.com</td>
+                        <td>
+                            <select class="role-select">
+                                <option value="cliente">Cliente</option>
+                                <option value="empleado">Empleado</option>
+                                <option value="administrador" selected>Administrador</option>
+                            </select>
+                        </td>
+                        <td>
+                            <button class="btn-guardar">Guardar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ana Martínez</td>
+                        <td>ana@email.com</td>
+                        <td>
+                            <select class="role-select">
+                                <option value="cliente" selected>Cliente</option>
+                                <option value="empleado">Empleado</option>
+                                <option value="administrador">Administrador</option>
+                            </select>
+                        </td>
+                        <td>
+                            <button class="btn-guardar">Guardar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
